@@ -16,7 +16,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ImssApp"
         android:usesCleartextTraffic="true">
-        <activity android:name=".info"></activity>
+
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".AgendarNotificacion"
+        />
+        <activity android:name=".ConsultarDisponibilidad" />
+        <activity android:name=".info" />
         <activity android:name=".Inicio" />
         <activity android:name=".MainActivity">
             <intent-filter>

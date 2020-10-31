@@ -5,6 +5,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+import lombok.Data;
+
+@Data
 public class User implements Serializable {
 
     @SerializedName("idUsuario")
@@ -35,68 +38,17 @@ public class User implements Serializable {
     @Expose
     private String nss;
 
+    @SerializedName("idClinica")
+    @Expose
+    private String idClinica;
+
+    @SerializedName("domicilio")
+    @Expose
+    private String domicilio;
+
     public Integer getIdUsuario() {
         return idUsuario;
     }
 
-    public void setIdUsuario(Integer idUsuario) {
-        this.idUsuario = idUsuario;
-    }
-
-    public String getNombres() {
-        return nombres;
-    }
-
-    public void setNombres(String nombres) {
-        this.nombres = nombres;
-    }
-
-    public String getApellidoPaterno() {
-        return apellidoPaterno;
-    }
-
-    public void setApellidoPaterno(String apellidoPaterno) {
-        this.apellidoPaterno = apellidoPaterno;
-    }
-
-    public String getApellidoMaterno() {
-        return apellidoMaterno;
-    }
-
-    public void setApellidoMaterno(String apellidoMaterno) {
-        this.apellidoMaterno = apellidoMaterno;
-    }
-
-    public String getCorreo() {
-        return correo;
-    }
-
-    public void setCorreo(String correo) {
-        this.correo = correo;
-    }
-
-    public String getNumeroCelular() {
-        return numeroCelular;
-    }
-
-    public void setNumeroCelular(String numeroCelular) {
-        this.numeroCelular = numeroCelular;
-    }
-
-    public String getContra() {
-        return contra;
-    }
-
-    public void setContra(String contra) {
-        this.contra = contra;
-    }
-
-    public String getAccessToken() {
-        return accessToken;
-    }
-
-    public void setAccessToken(String accessToken) {
-        this.accessToken = accessToken;
-    }
 
 }

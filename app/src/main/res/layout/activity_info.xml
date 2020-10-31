@@ -12,46 +12,61 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtNss"
+            android:textSize="18dp"
+            android:layout_marginTop="18dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/txtNombre"
+            android:textSize="18dp"
+            android:layout_marginTop="18dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txtApellidos"
+            android:textSize="18dp"
+            android:layout_marginTop="18dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/txtCorreo"
+            android:textSize="18dp"
+            android:layout_marginTop="18dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/txtNumeroCelular"
+            android:textSize="18dp"
+            android:layout_marginTop="18dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/txtDomicilio"
+            android:textSize="18dp"
+            android:layout_marginTop="18dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/txtClinica"
+            android:textSize="18dp"
+            android:layout_marginTop="18dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
